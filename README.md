@@ -32,12 +32,20 @@
 
 - 전처리한 데이터를 10개의 머신러닝(Random Forest, GradientBoost, XGBoost 등)과 교차검증을 사용하여 모델 학습 진행
 - 정확도를 평가지표로 사용하여 정확도의 평균을 구하여 모델의 성능 확인
+![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/fa133166-6dc7-42c8-a484-251b81d80ecc)
+
 - 학습을 진행한 머신러닝 모델 중 상위권에 포함되어 있는 5개의 모델을 선택해 Bayesian optimization 진행
-- Bayesian optimization를 진행해본 결과, Random Forest 모델을 최종 모델로 선정하여 추가적인 모델링 진행
+![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/10315c59-d5ec-44d3-b739-d16b71bcbd01)
+
+- Bayesian optimization를 진행해본 결과, 정확도가 가장 높은 XGBoost 모델을 최종 모델로 선정
+![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/93900b2f-8dfd-4b05-a918-01dab45445b4)
+
 
 ## 3. 우울증의 주요 원인 분석
 
-- 특성중요도를 이용하여 우울증에 영향을 미치는 주요 문항을 확인 및 분석
+- XGBoost 모델의 특성중요도를 이용하여 우울증에 영향을 미치는 주요 문항을 확인 및 분석
+![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/28d8c61c-8e91-4773-8394-af64e7eca8d6)
+![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/534ec67e-d125-48a0-82ba-4eec482c0f38)
 - 2018년도의 조사문항과, 2020년도의 조사문항을 비교하며 추가적인 분석 진행
 
 
