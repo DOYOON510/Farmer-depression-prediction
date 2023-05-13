@@ -45,7 +45,7 @@
 
 - XGBoost 모델의 특성중요도를 이용하여 우울증에 영향을 미치는 주요 문항을 확인 및 우울군과 비우울군 비교
 ![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/28631982-1c82-40cd-b2ca-1f94e60ecf65)
-![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/563bd6d8-4432-4fd5-9c16-43dae307b851)
+![image](https://github.com/DOYOON510/Farmer-depression-prediction/assets/129147977/8a0ba7f1-476b-4984-a5ff-ac50942e06be)
 - 2018년도의 조사문항과, 2020년도의 조사문항을 비교하며 추가적인 분석 진행
 
 
